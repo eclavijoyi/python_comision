@@ -1,5 +1,6 @@
 # Usa la imagen oficial de Python
-FROM python:3.10.12
+#FROM python:3.10.12
+FROM python:3.9.18-alpine3.18
 
 # Establece el directorio de trabajo en /app
 WORKDIR /app
